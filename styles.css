@@ -252,41 +252,10 @@ div.text-center {
     height: 50%;
 }
 
-.avatar {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    margin-bottom: 15px;
-}
-
 .card-body {
     padding: 30px 0px 0px;
 }
 
-.card-title {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-}
-
-.card-subtitle {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 19px;
-    color: #757575;
-    margin-bottom: 3px !important;
-}
-
-.card-text {
-    font-family: Rubik;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 19px;
-    color: #757575;
-    margin-bottom: 19px;
-}
 .fee {
     font-family: Rubik;
     font-style: italic;
@@ -297,7 +266,7 @@ div.text-center {
 }
 
 .fav-no {
-    text-align: justify;
+    /* text-align: justify; */
     font-family: Rubik;
     font-style: normal;
     font-size: large;
@@ -310,7 +279,7 @@ div.text-center {
     justify-content: baseline;
 }
 .heart {
-    font-size: 25px;
+    font-size: calc(25% + 1vw + 1vh);
     padding-right: 5px;
     position: relative;
     top: 2px;
@@ -409,4 +378,38 @@ hr#top {
 .ml-3,
 .mx-3 {
     margin-left: 0.5rem !important;
+}
+
+#card-title {
+    font-size: calc(10% + 1vw + 1vh);
+    line-height: calc(1% + 1vw + 1vh);
+}
+
+#card-subtitle {
+    font-size: calc(1% + 1vw + 1vh);
+    font-weight: 300;
+    color: #757575;
+    line-height: calc(1% + 1vw + 1vh);
+}
+
+#card-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: calc(1% + 1vw + 1vh);
+    color: #757575;
+    line-height: calc(1% + 1vw + 1vh);
+}
+
+#card-photo {
+    width: calc(20.5% + 1vw + 1vh);
+}
+
+#avatar {
+    /* width: calc(50% + 1vw + 1vh); */
+    background-image: url(images/Avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: calc(100% + 1vw + 1vh);
+    width: calc(100% + 1vw + 1vh);
+    margin: calc(1% + 1vw + 1vh);
 }

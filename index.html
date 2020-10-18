@@ -155,12 +155,20 @@
                         <div class="card doccard">
                             <div class="flex-class">
                                 <div id="card-photo">
-                                    <img
-                                        src="images/Avatar.png"
-                                        alt="doc img"
-                                    />
+                                    <div id="avatar"></div>
+                                    <div class="flex-class">
+                                        <i
+                                            onclick="toggleHeart(this)"
+                                            class="far fa-heart heart"
+                                        ></i>
+                                        <p id="fav-no">8.3k</p>
+                                    </div>
                                 </div>
-                                <div id="card-body">Dr. Lorem Ipsum</div>
+                                <div id="card-body">
+                                    <h5 id="card-title">Dr. Lorem Ipsum</h5>
+                                    <h6 id="card-subtitle">Specialization</h6>
+                                    <p id="card-text">30 years of experience</p>
+                                </div>
                                 <div class="dropdown">
                                     <div
                                         class="text-center dropdown"
