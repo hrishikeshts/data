@@ -279,14 +279,28 @@ hr {
     transition: all 200ms ease-in-out;
 }
 
+.navbar{
+    min-height: 60px;
+}
+
 .nav-link {
     color: black;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link a:hover{
     color: #00acdc;
     cursor: pointer;
 }
+
+.nav-link a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.nav-link a:hover{
+    color: #00acdc;
+}
+
 
 .navbar-toggler {
     outline: none !important;
@@ -308,7 +322,7 @@ hr {
 }
 
 .container h3 {
-    margin-top: 3vw;
+    margin-top: 15vh;
 }
 
 #p-margin {
@@ -320,7 +334,7 @@ hr {
 }
 
 #download {
-    pposition: absolute;
+    position: absolute;
     top: -75px;
 }
 
@@ -367,7 +381,7 @@ ul.mx-auto li {
     top: 13vw;
     left: 3vw;
     width: calc(47vw - 0px);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
     z-index: -1;
 }
 
@@ -377,7 +391,7 @@ ul.mx-auto li {
     left: 17px;
     width: 100px;
     filter: brightness(0);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
 }
 
 .blacklogo {
@@ -385,7 +399,7 @@ ul.mx-auto li {
     top: 13vw;
     left: 3vw;
     width: calc(47vw - 0px);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
 }
 
 .blacklogo-scroll {
@@ -394,7 +408,7 @@ ul.mx-auto li {
     left: 17px;
     width: 100px;
     filter: brightness(0);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
 }
 
 @media only screen and (max-width: 768px) {
@@ -416,7 +430,7 @@ ul.mx-auto li {
     color: white;
     font-weight: 400;
     font-size: calc(1.5vw + 5px);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
 }
 
 #banner .text-scroll {
@@ -427,5 +441,5 @@ ul.mx-auto li {
     color: white;
     font-weight: 400;
     font-size: calc(2vw + 5px);
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-out;
 }

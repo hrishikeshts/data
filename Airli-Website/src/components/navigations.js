@@ -9,28 +9,12 @@ import {
     NavbarToggler,
 } from "reactstrap";
 import { Link } from 'react-router-dom';
+import blacklogo from "../graphics/airli-logo-black.png";
 
-import whiteLogo from "../graphics/airli-logo-white.png";
-
-function Navigation() {
+function NavigationS() {
     const [collapsed, setCollapsed] = useState(true);
     const [expand, setExpand] = useState("");
     const [toggleMenu, setMenu] = useState(false);
-    const [scroll, setScroll] = useState(false);
-    const [scrollUp, setScrollUp] = useState(false);
-
-    const changeBackground = () => {
-        if (window.scrollY >= window.innerWidth / 15 - 20) setScroll(true);
-        else setScroll(false);
-    };
-
-    const changeLogoUp = () => {
-        if (window.scrollY >= window.innerWidth / 15 - 20) setScrollUp(true);
-        else setScrollUp(false);
-    };
-
-    window.addEventListener("scroll", changeBackground);
-    window.addEventListener("scroll", changeLogoUp);
 
     const icon = !toggleMenu ? (
         <svg
@@ -68,28 +52,6 @@ function Navigation() {
         </svg>
     );
 
-    const brand = scroll ? (
-        <NavbarBrand href='/' className='mr-auto' draggable='false'>
-            <img
-                src={whiteLogo}
-                alt='Airli'
-                width='100px'
-                draggable='false'
-                className={scrollUp ? `blacklogo-scroll` : `blacklogo`}
-            />
-        </NavbarBrand>
-    ) : (
-        <div>
-            <img
-                src={whiteLogo}
-                alt='Airli'
-                width='100px'
-                draggable='false'
-                className={scrollUp ? `whitelogo-scroll` : `whitelogo`}
-            />
-        </div>
-    );
-
     const toggle = () => {
         setCollapsed((prevState) => !prevState);
         if (collapsed) {
@@ -101,15 +63,22 @@ function Navigation() {
     return (
         <Navbar
             expand='md'
-            className={scroll ? `nav-active ${expand}` : `nav ${expand}`}
+            className={`nav-active ${expand}`}
             fixed='top'
         >
-            {brand}
+        <NavbarBrand href='/' className='mr-auto' draggable='false'>
+            <img
+                src={blacklogo}
+                alt='Airli'
+                width='100px'
+                draggable='false'
+            />
+        </NavbarBrand>
             <NavbarToggler onClick={toggle} className='mr-2'>
                 {icon}
             </NavbarToggler>
             <Collapse isOpen={!collapsed} navbar>
-                <Nav className={scroll ? "ml-auto" : "mx-auto"} navbar>
+                <Nav className="ml-auto" navbar>
                     <NavItem>
                         <NavLink href='/' draggable='false'>
                             <span>Home</span>
@@ -148,4 +117,4 @@ function Navigation() {
     );
 }
 
-export default Navigation;
+export default NavigationS;
