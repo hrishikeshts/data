@@ -1,0 +1,455 @@
+body {
+    background-color: #edf3ed;
+    font-family: Rubik;
+}
+
+#cover-row {
+    background-image: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 50%,
+            rgba(0, 0, 0, 0.75) 100%
+        ),
+        url(https://www.arup.com/-/media/arup/images/projects/k/kaiser-template-hospitals/kaiser_medical_center_design_templates_hero_robert_canfield.jpg?h=1125&w=2000&hash=85169C0FA20502732254E260EA7B0D1D);
+    background-size: cover;
+    background-position: center;
+    font-family: Montserrat;
+    height: 480px;
+    padding: 0 5%;
+}
+
+#logo-parent {
+    position: relative;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: -30px;
+    right: 15px;
+}
+
+#text {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+#hospital-name {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#hospital-type {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+    #logo-parent {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 873px) {
+    .grey-area {
+        font-size: 12px;
+    }
+    .but-position {
+        padding-left: 0% !important;
+        padding-right: 4%;
+        padding-top: 3% !important;
+    }
+}
+
+nav {
+    z-index: 1;
+}
+
+body {
+    background-color: #edf3ed;
+    font-family: Rubik;
+}
+
+.navproject {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-expand-lg {
+    opacity: 0.92;
+    font-family: Montserrat;
+}
+
+div.text-center {
+    margin: 30px 10px;
+}
+
+.dots {
+    font-size: 20px;
+    color: #757575;
+    width: 30px;
+}
+
+.dots:hover {
+    color: #000000;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: Rubik;
+}
+
+.dropdown-item {
+    color: #ee9f43;
+}
+
+.dropdown-item:hover {
+    background-color: #ee9f43;
+    color: #ffffff;
+}
+
+.logo {
+    left: 10%;
+    top: 320px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.logopic {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* .car{
+    size:50x;
+ } */
+
+.docheading {
+    display: flex;
+    /* justify-content: space-between;
+    width: 10%; */
+}
+.doctext {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 150%;
+    position: relative;
+    left: 10px;
+}
+.steth {
+    font-size: 25px;
+    color: #757575;
+    position: relative;
+    top: 7px;
+}
+
+.grey-icon {
+    color: #757575;
+    /* width: 27px; */
+}
+
+.grey-area {
+    font-family: Rubik;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-right: 2.5%;
+    /* identical to box height */
+
+    color: #757575;
+}
+
+.call-directions {
+    padding-left: 20%;
+    padding-top: 2.5%;
+}
+
+.but-position {
+    padding-left: 25%;
+}
+
+/* .dist-class{
+    padding-right: 25%;
+} */
+.call-format {
+    background: #ffffff;
+    border: 0.5px solid #757575;
+    box-sizing: border-box;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.icon {
+    padding-right: 9%;
+}
+.dir-format {
+    background: #ffffff;
+    border: 0.5px solid #757575;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 0%;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.sample-text {
+    padding: 3% 5%;
+    font-family: Rubik;
+    font-style: normal;
+    color: #000000;
+    font-weight: 300;
+    font-size: 150%;
+    text-align: center;
+}
+
+.notes {
+    margin: 0;
+    font-style: italic;
+    font-size: 75%;
+    color: #757575;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.doccolumn {
+    padding: 15px;
+}
+
+#doctors {
+    padding: 0% 5%;
+    z-index: -5;
+}
+
+.doccard {
+    border-radius: 15px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.flex-class {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.card-photo {
+    height: 15vw;
+}
+
+.card-body {
+    text-align: left;
+    padding: 1vw 0px 0px;
+}
+
+.card-title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    color: #757575;
+    margin-bottom: 3px !important;
+}
+
+.card-text {
+    font-family: Rubik;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 19px;
+    color: #757575;
+    margin-bottom: 19px;
+}
+.fee {
+    font-family: Rubik;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.fav-no {
+    text-align: justify;
+    font-family: Rubik;
+    font-style: normal;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.check {
+    display: flex;
+    justify-content: baseline;
+}
+.heart {
+    font-size: 25px;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+    color: #ee9f43;
+}
+
+.consult-button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #4baf62;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.consult-button:hover {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.line {
+    padding: 0% 5%;
+}
+
+hr#bottom {
+    border-top: 3px solid #757575;
+    margin: 10px 0px;
+}
+
+hr#top {
+    border-top: 3px solid #757575;
+}
+
+/* .container-fluid {
+    padding: 20px;
+} */
+
+.footer-element {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 0px;
+    color: #757575;
+}
+
+.copyright {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #757575;
+}
+.doctor-search {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.form-control {
+    border-radius: 1rem;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    font-family: Rubik;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.fa-search {
+    color: #757575;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.mt-2,
+.my-2 {
+    margin-top: 0 !important;
+}
+
+.ml-3,
+.mx-3 {
+    margin-left: 0.5rem !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0 5%;
+}
+
+.flex-item {
+    background-color: white;
+    margin: 10px;
+    line-height: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .flex-item {
+        width: 30%;
+        height: 15vw;
+    }
+    .card-title {
+        font-size: 1.4vw;
+    }
+    .avatar {
+        width: 10vw;
+        height: 10vw;
+        padding: 1vw;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-item {
+        width: 100%;
+        height: 40vw;
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .flex-item {
+        float: left;
+        width: 47%;
+        height: 20vw;
+
+        font-size: 3vw;
+    }
+}
