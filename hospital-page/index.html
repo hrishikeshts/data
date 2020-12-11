@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta charset="utf-8" />
+        <title>Hospital</title>
+
+        <!-- bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <!-- style -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+
+        <!-- fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- icons from https://fontawesome.com/icons?d=gallery -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/cc2af3c299.js"></script>
+    </head>
+    <body>
+        <div id="main-content" class="container-fluid">
+            Cards
+            <div class="flex-container">
+                <div class="flex-item doccard"><div class="flex-class">
+                    <div class="card-photo">
+                        <img
+                            src="images/Avatar.png"
+                            class="avatar"
+                            alt="doc img"
+                        />
+                        <div class="flex-class check">
+                            <i
+                                onclick="toggleHeart(this)"
+                                class="far fa-heart heart"
+                            ></i>
+                            <p class="fav-no">8.3k</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Lorem Ipsum</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            Specialization
+                        </h6>
+                        <p class="card-text">
+                            30 years of experience
+                        </p>
+                        <p class="fee">Consultation Fee: ₹500</p>
+                    </div>
+                    <div class="dropdown">
+                        <div
+                            class="text-center dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <i class="fas fa-ellipsis-v dots"></i>
+                        </div>
+                        <div
+                            class="dropdown-menu dropdown-menu-right"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Add to favourites</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-class"></div>
+                <!--  <div class="consult-button">
+                <a href="#" class="card-link c-button" style="color:#4BAF62" >Consult Now</a>
+        </div> -->
+                <button
+                    type="button"
+                    class="btn btn-outline-success consult-button"
+                >
+                    Consult Now
+                </button></div>
+                <div class="flex-item doccard">2</div>
+                <div class="flex-item doccard">3</div>
+                <div class="flex-item doccard">4</div>
+                <div class="flex-item doccard">5</div>
+                <div class="flex-item doccard">6</div>
+            </ul>
+        </div>
+    </body>
+</html>

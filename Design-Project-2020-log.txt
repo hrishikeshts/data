@@ -1,0 +1,399 @@
+commit e348d5b24a03b4e607fec33d02ac194fa7e9d3ef
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Sun Oct 18 12:50:18 2020 +0530
+
+    responsiveness done!
+
+commit f14239c60ae09339c44c88404b3ba18dc9e2a8b6
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sun Oct 18 11:45:34 2020 +0530
+
+    Headr corrected
+
+commit 97160f33c0e566239351cfd0afaf1697885bb008
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Sun Oct 18 00:13:47 2020 +0530
+
+    updated hr padding
+
+commit d9017c2bc92b0e847e99b5b7b0652575236753e4
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 21:56:00 2020 +0530
+
+    Changed search bar focus
+
+commit f7f9d2c520a1cb1288045cd5e1d83effa0385651
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 21:32:38 2020 +0530
+
+    Orange button
+
+commit ee0b94d4cf037b06454b184088f5b40d22f32e49
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 21:27:28 2020 +0530
+
+    Formatted 'Add to favourites' button
+
+commit 68ba46e015f24241b496213f7f562e74731a18cc
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 21:06:19 2020 +0530
+
+    Dropdown added to vertical ellipsis
+
+commit e4f786b2d12397cd9a7a715b125dad94b972d06f
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 20:48:12 2020 +0530
+
+    Dropdown added to vertical ellipsis
+
+commit 3640a17a37b2b8260d543d6a562178d3ea4a102a
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 20:22:59 2020 +0530
+
+    Changed stethescope icon alignment
+
+commit 48c417ff56a7c17b41064f43069fded06321aa54
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 19:47:17 2020 +0530
+
+    Aligned icons in doctor bar
+
+commit fd214fdb8a343b05140bf57d745463524cb25ed6
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 19:08:04 2020 +0530
+
+    Search bar styles changed
+
+commit 02cd7a85d571d2db473c0f35bbcbe4a670cf17a8
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 18:31:47 2020 +0530
+
+    Changes to footnote style
+
+commit 05b1d8e482dc30a295d783792b4e8e894f9abc5d
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 18:29:26 2020 +0530
+
+    Changes to footnote style
+
+commit 71c0c9cf30f0571c909eed9fb9bbbd4f12bff912
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 18:26:44 2020 +0530
+
+    Changes to footnote style
+
+commit 127d49dcea090ea5df7e7e5cf4c6b1b6a8c66cdf
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 17:53:12 2020 +0530
+
+    Update index.html
+
+commit 92f930682d624980e8ba57c2a1b23bcce9dd9a04
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Sat Oct 17 17:10:37 2020 +0530
+
+    doctor search bar added
+
+commit 8cef40b6fb383d34982b697df1a2fb03eafaad7c
+Author: Anu <anamikabav@gmail.com>
+Date:   Sat Oct 17 16:48:07 2020 +0530
+
+    doctor heading
+
+commit fbf7d7662decf3fa26f4c815678bc15a8b187010
+Merge: 037b2d5 ddabce5
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Sat Oct 17 15:32:03 2020 +0530
+
+    Merge branch 'master' of https://github.com/saharshpruthi/Design-Project-2020
+
+commit 037b2d56a2702930ef797db50fe80c3374c4e7e0
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Sat Oct 17 15:31:08 2020 +0530
+
+    call and directions added
+
+commit ddabce5bcbd96b10c31cbfe041f06b178a4bd5c3
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 13:11:24 2020 +0530
+
+    Logo shadow
+
+commit 5be881a5a75b3bcc486e52d2f83713f337ad686d
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 13:07:01 2020 +0530
+
+    Logo changes
+
+commit 45fc1ad6b1913143ec3cf70b36910348f49756d3
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 11:57:06 2020 +0530
+
+    Added click function to Love button
+
+commit a48fd3d3c955623ab692723e6f1ba87b7ad02166
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Sat Oct 17 10:44:38 2020 +0530
+
+    Update styles.css
+
+commit aa1820c008ac7f111b2e4f7f18e5b1ab1baa49ef
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Sat Oct 17 10:44:33 2020 +0530
+
+    Update index.html
+
+commit 60b618a93eaa2cc2b64c167ef899be734ad3a249
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Sat Oct 17 01:02:50 2020 +0530
+
+    footer added
+
+commit c06727af3981275c789f630e04877b19105fdf6c
+Author: Anu <anamikabav@gmail.com>
+Date:   Sat Oct 17 00:49:26 2020 +0530
+
+    working button
+
+commit 17cd056a2ad72ea1b9a8d1630611a54e2461231b
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 00:16:29 2020 +0530
+
+    Update styles.css
+
+commit 7b636980f0fdef9dc25d749bc75ceba4562df106
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Sat Oct 17 00:14:30 2020 +0530
+
+    Card title spacing changed
+
+commit 1dc856efd87afebcb1584e74c30d3c55c71d36da
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 23:57:39 2020 +0530
+
+    3 dots
+
+commit a0e500eb2998a9e1b656d71f5a810a973d662924
+Author: Anu <anamikabav@gmail.com>
+Date:   Fri Oct 16 23:45:48 2020 +0530
+
+    dots
+
+commit da29ac90a2804caaa5b582c269cfc76700aa5daa
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 23:11:45 2020 +0530
+
+    doctor card done
+
+commit 067e25eccad7f65da277bb4b9543ebe362b485cc
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 22:32:49 2020 +0530
+
+    Formatting and commenting
+
+commit 253744143eeadb7df8ed85c3825cda34ade86875
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 22:22:14 2020 +0530
+
+    Changes
+
+commit a855376737baa42a59a407e204d0b7b6d66b499d
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 22:17:14 2020 +0530
+
+    Updated address area
+
+commit e7db9b61882572e09a599aae25cbd6fa50be6ade
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 22:10:38 2020 +0530
+
+    Fixed avatar position
+
+commit bf72c3de735bfff7347582532e04934cabaa44d3
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 21:34:45 2020 +0530
+
+    doc card modified
+
+commit 4deb011f447deab73d7609614d10a5d3c066ba52
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 20:34:25 2020 +0530
+
+    photo added to cards
+
+commit 92fcc222cb886a5a06d9ac2f8a99f4123b33c65c
+Author: Anu <anamikabav@gmail.com>
+Date:   Fri Oct 16 19:04:59 2020 +0530
+
+    cards added
+
+commit 0289b9566dad82429e54c98f3cc2a66690dbe424
+Author: Anu <anamikabav@gmail.com>
+Date:   Fri Oct 16 16:57:38 2020 +0530
+
+    nav fixed
+
+commit 5d1adb6ad0923c822fe632d02e323adeae786954
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 15:43:43 2020 +0530
+
+    cover web done
+
+commit 9b677cb6f46ab04dc11eeec9554b0e8fcb2c0fdb
+Author: Anu <anamikabav@gmail.com>
+Date:   Fri Oct 16 15:25:57 2020 +0530
+
+    logo added
+
+commit 3c80c98e0e809e91be162ab908fe65c4438e9845
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 13:02:06 2020 +0530
+
+    Update styles.css
+
+commit c5c5b9499c71518d460d10bc5a3f402ffc7151f2
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 12:13:35 2020 +0530
+
+    Background image adjustment
+
+commit 4c9ea34d32ec8553d9c13e3c599c2f07f68217ad
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Fri Oct 16 12:01:48 2020 +0530
+
+    Changed gradient values
+
+commit 63d418b435ff731640ca2503e18c3b34998601d1
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 11:25:09 2020 +0530
+
+    Update index.html
+
+commit d967c6e29ee397ad096b565df71fee89bc017244
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 11:24:46 2020 +0530
+
+    ..
+
+commit dcac417deb719ed5ef1544ef17364e5aae10c338
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 11:11:05 2020 +0530
+
+    changes
+
+commit a254dc01d14bddd897d6dc71b908aa65bc859aa1
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Fri Oct 16 10:53:51 2020 +0530
+
+    Cover changes
+
+commit c4f8f972c0457096798c1ac5445de213adc5bcd2
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Thu Oct 15 22:00:23 2020 +0530
+
+    Added font styles
+
+commit f00e3f3ae8609a9d808c43a1eb14dc2a30cc0ade
+Author: Anu <anamikabav@gmail.com>
+Date:   Thu Oct 15 20:28:07 2020 +0530
+
+    navbar added
+
+commit 23c871488ba871dc0da240ebcc25f9146127fb86
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:59:24 2020 +0530
+
+    Update index.html
+
+commit 3ad5bb3ce3330bb4b0283fe214eb36e66668f0a7
+Merge: 64f7f13 c50cf75
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:55:10 2020 +0530
+
+    Update index.html
+
+commit 64f7f13e988a1482217d0dc764084abb6ea83572
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:54:13 2020 +0530
+
+    sample change
+
+commit c50cf75832627f1b5e94e8af241596f580fbd018
+Merge: 37c946b 0eb18a0
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Thu Oct 15 18:53:19 2020 +0530
+
+    Merge branch 'master' of https://github.com/saharshpruthi/Design-Project-2020 into master
+
+commit 37c946bbc4868178c704420ef78e07855fcee459
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Thu Oct 15 18:52:40 2020 +0530
+
+    Change
+
+commit 0eb18a02b01510a74fa06cdca1c856ebabf768d5
+Merge: 2ca062d 087db28
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Thu Oct 15 18:34:50 2020 +0530
+
+    Merge branch 'master' of https://github.com/saharshpruthi/Design-Project-2020 into master
+
+commit 2ca062d8dce60a12be3f6967e5076cab36f22987
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Thu Oct 15 18:34:22 2020 +0530
+
+    Update
+
+commit 087db28094bc5fa3ba43ed35f8d3756d67a41dcd
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:31:05 2020 +0530
+
+    testing
+
+commit ea6b9ea84babae667776f9c9ece3c9964f5960f3
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:29:24 2020 +0530
+
+    Update index.html
+
+commit 764baa5f6e0f0fc5123bf282f1fb265a22a2d776
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Thu Oct 15 18:25:47 2020 +0530
+
+    Update
+
+commit 799f38d9a39e4ea9b961151b73c9b649fa2223e0
+Author: annvith <44024493+annvith@users.noreply.github.com>
+Date:   Thu Oct 15 18:24:15 2020 +0530
+
+    Update index.html
+
+commit c7054e467ee22e61c9491ed2677c2c7d5cc4db6c
+Author: Anamika Prakash <anamikap@cet.ac.in>
+Date:   Thu Oct 15 18:22:47 2020 +0530
+
+    Update index.html
+
+commit 04dba10b804818a02cbd4eb601f94329e7d7ef47
+Author: Hrishikesh Thesserikaran <hrishikeshts@gmail.com>
+Date:   Thu Oct 15 18:17:21 2020 +0530
+
+    Create index.html
+
+commit 84b7542f660bc447e8e93df6a6057e83a001daef
+Author: annvith <annvithayathil06@gmail.com>
+Date:   Thu Oct 1 04:44:37 2020 +0530
+
+    Modified Database
+
+commit 4dbb1af006c7d27348f3f740b799c96d687ac861
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Wed Sep 30 05:00:55 2020 +0530
+
+    Update hospital_db.mwb
+
+commit b03c1f4e303cc917017cd6f2fcfa6ae910b4d6c8
+Author: pranav2010 <63247413+pranav2010@users.noreply.github.com>
+Date:   Wed Sep 30 04:00:43 2020 +0530
+
+    Create hospital_db.mwb
